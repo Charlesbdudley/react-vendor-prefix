@@ -100,7 +100,7 @@ module.exports =
 	        properties.display = "-webkit-flex";
 	      }
 
-	      ["alignItems", "justifyContent", "flexDirection", "flex", "flexWrap"].forEach(function (prop) {
+	      ["alignItems", "justifyContent", "flexDirection", "flex", "flexWrap", "Order"].forEach(function (prop) {
 	        rename(properties, prop, prefixName(prop));
 	      });
 	      // polyfil for IE10
